@@ -1,0 +1,31 @@
+table{
+  border: 2px;
+  background-color: #EEE;
+  border-spacing: 0px;
+}
+td{
+  border: solid #777 2px;
+  background-color: #CCC;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+.active{
+  background-color: #EEE;
+  border: solid #AAA 2px;
+  font-size: 13px;
+}
+.bomb{
+  border-radius: 50%;
+  background-color: #E00;
+  border: solid #A00 2px;
+}
+.flag{
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  background-color: #F80;
+  border: solid #A80 2px;
+}
